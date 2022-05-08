@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'PoppinsExtraBold';
-    src: url('/assets/Poppins/Poppins-ExtraBold.ttf');
+    src: url('assets/Poppins/Poppins-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: 'PoppinsRegular';
-    src: url('/assets/Poppins/Poppins-Regular.ttf');
+    src: url('assets/Poppins/Poppins-Regular.ttf');
 }
 
 .logoLien {
@@ -18,4 +18,39 @@
     width: 100px;
     height: 100px;
     padding: 10pt;
+}
+
+.contactGrid {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.logoGrid {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1224px) {
+    .contactGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactGrid {
+        display: grid;
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .logoLien img {
+        text-align: center;
+
+    }
 }

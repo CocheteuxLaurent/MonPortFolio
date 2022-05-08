@@ -1,24 +1,23 @@
-
 @font-face {
     font-family: 'PoppinsExtraBold';
-    src: url('/assets/Poppins/Poppins-ExtraBold.ttf');
+    src: url('assets/Poppins/Poppins-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: 'PoppinsRegular';
-    src: url('/assets/Poppins/Poppins-Regular.ttf');
+    src: url('assets/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
     font-family: 'PoppinsSemiBold';
-    src: url('/assets/Poppins/Poppins-SemiBold.ttf');
+    src: url('assets/Poppins/Poppins-SemiBold.ttf');
 }
 
 
 .navBar {
     background-color: #D6A170;
     overflow: hidden;
-    
+
 }
 
 .navBar a {
@@ -40,7 +39,7 @@
     .navBar a:not(:first-child) {
         display: none;
     }
-  
+
 
     .navBar a.icon {
         float: right;
