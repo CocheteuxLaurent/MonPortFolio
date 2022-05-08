@@ -20,7 +20,7 @@
     padding: 10pt;
 }
 
-.contactGrid {
+.sectionGrid {
     padding: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
