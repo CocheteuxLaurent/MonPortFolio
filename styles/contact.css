@@ -40,12 +40,21 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
+
+    #txtTitle {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .contactGrid {
         display: grid;
 
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .logoGrid {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
