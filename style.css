@@ -1,0 +1,116 @@
+.buttonDecouv {
+    text-align: center;
+}
+
+.btnDecouvrir {
+    border-radius: 1em;
+    background-color: #EB984E;
+    color: white;
+    text-decoration: none;
+}
+
+.logoLien {
+    text-align: center;
+    padding: 15pt;
+    margin: 15pt;
+}
+
+.logoWelcome {
+    text-align: center;
+}
+
+.imgWelcome {
+    width: 80px;
+    height: 100px;
+}
+
+.imgGmail {
+    width: 80px;
+    height: 100px;
+    padding: 10pt;
+}
+
+.imgOutlook {
+    width: 80px;
+    height: 100px;
+    padding: 10pt;
+}
+
+.imgLinkedin {
+    width: 80px;
+    height: 100px;
+    padding: 10pt;
+}
+
+.txtIndex {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.para {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.navBar {
+    background-color: #D6A170;
+    overflow: hidden;
+}
+
+.navBar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navBar .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navBar a:not(:first-child) {
+        display: none;
+    }
+
+    .navBar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navBar.responsive {
+        position: relative;
+    }
+
+    .navBar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navBar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+body {
+    background-color: #F0B27A;
+    color: white;
+    font-weight: bold;
+    font-size: 18pt;
+}
