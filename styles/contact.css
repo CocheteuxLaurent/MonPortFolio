@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'PoppinsExtraBold';
+    src: url('/assets/Poppins/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('/assets/Poppins/Poppins-Regular.ttf');
+}
+
+.logoLien {
+    text-align: center;
+    padding: 15pt;
+    margin: 15pt;
+}
+
+.imgGmail {
+    width: 100px;
+    height: 100px;
+    padding: 10pt;
+}
